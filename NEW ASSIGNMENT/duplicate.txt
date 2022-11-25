@@ -1,0 +1,29 @@
+Program to delete duplicate file 
+
+Declare name_of_file as character array
+Declare file_id as interger array
+Declare compare_f as integer and initialize it as zero
+Declare lowest_id as interger and initialize it as zero
+Declare stepcount, number_file and t as interger
+Accept number of steps and store in in stepcount
+Set a FOR loop to count from 0 to the number of stepcount
+Accept number of file to compare and store it in number_file
+Declare j as interger and initialize it as zero
+Set a while loop j which is less than number_file 
+Accept name_of_file and file_id, store it in name_of_file of loop and file_id of loop j
+increment j by 1
+Store file_id with 0 to lowest_id
+Set FOR loop of j less than number_file
+Set FOR loop of i which is equal to j+1 and i less than number_file
+compare name_of_file of loop j and i and store it in compare_f
+Check if compare_f is equal to zero and lowest_id is greater than file_id of loop j
+Store file_id of loop j into lowest_id
+Check if compare_f is not equal to zero and file_id of loop j is greater tha file_id of loop if
+Store file_id of loop j to test
+Store file_id of loop i to file_id of loop j
+Store t to file_id of loop i
+Set FOR loop from zero to file_id
+Check if compare_f is not equal to zero  
+Display file_id of loop j
+Check if compare_f is equal to zero 
+Display the name_of_fileand file_id that won't be deleted

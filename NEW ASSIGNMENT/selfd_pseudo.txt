@@ -1,0 +1,19 @@
+Program to test if a number is a self describing 
+
+Declare self describing as integer
+Declare numberofarray as char
+Declare testcase as char
+Declare lengthofnumber as interger
+Declare counter as interger
+Initialize counter as zero
+Accept number to test and store in into a variable testcase
+Check for the length of the testcase and store into lengthofnumber
+Set loop on lengthofnumber, store loop testcase into numberofarray loop
+Display numbers in numberofarray and testcase
+Step a loop of m base on lengthofnumber
+Set a loop of i base on lengthofnumber
+Check if numberofarray loop i is equal to m
+And if the condition is true, increment counter by 1
+Check if counter is equal to numberofarray of loop m
+And if the conditio is true testcase is a self describing number
+Else testcase is not a self describing number
